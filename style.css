@@ -1,0 +1,299 @@
+body{
+    display: flex;
+    /* justify-content: center; */
+    background: linear-gradient(90deg, #030380 0%, #060e1f 100%);
+    /* text-align: center; */
+    /* width: 100%; */
+}
+.header {
+    /* display: flex; */
+    justify-content: center;
+    width: 100%;
+}
+
+.message-up-title {
+    display: flex;
+    width: 253.33px;
+    height: 38.16px;
+    background-color: #0001eb;
+    border-color: #0001eb;
+    border-style: solid;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.message-up-title p{
+    color: aliceblue;
+    font-size: .75rem;
+}
+
+.title h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 4.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: aliceblue;
+    text-align: center;
+}
+
+.text-builder{
+    
+    text-align: center;
+}
+
+.text-builder span {
+
+    opacity: 1;
+    font-size: 16px;
+    color: #98a2b3
+    
+}
+#text-two{
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 10px;        
+}
+
+.start-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.button-start{
+    width: 278px;
+    height: 49.27px;
+    background-image: linear-gradient(45deg, #1718ff, #7f56d9);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.button-start:hover{
+    border-color: white;
+}
+
+.button-start button{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    font-family: Poppins, sans-serif;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.more-information{
+    cursor: pointer;
+    width: 154px;
+    height: 49.27px;
+    background-image: none;
+    border-radius: 25px;
+    border: solid 1px white;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.more-information button {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    font-family: Poppins, sans-serif;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.more-information:hover{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    
+    .more-information button:hover{
+        color: black;
+        border: 1px solid;
+        border-radius: 25px;
+    }
+}
+
+.more-information button:hover{
+    color: #010c24;
+    border-radius: 25px;
+}
+
+.img-my-casino{
+    padding-top: 105px;
+    display: flex;
+    width: 100px;
+    height: 842px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.img-my-casino img {
+    margin-left: 60px;
+}
+
+.our-difference-menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-our-difference{
+    width: 100%;
+}
+
+.message-our-difference{
+    display: flex;
+    width: 184.33px;
+    height: 42.16px;
+    background-color: #011d5a;
+    border-color: #011d5a;
+    border-style: solid;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 100px;
+}
+
+.message-our-difference p{
+    color: aliceblue;
+    font-size: .75rem;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.customize-plataform {
+    display: flex;
+    text-align: center;
+    width: 100%; 
+}
+
+.customize-plataform h1{
+    width: 100%;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    justify-content: center;
+}
+
+.customize-visual{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.customize-visual h3{
+    font-size: 1.25rem;
+    opacity: 1;
+    color: #98a2b3;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    justify-content: center;
+    width: 100%;
+}
+
+.topics-img{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 27%;
+}
+
+.topics-img p{
+    font-size: 1.125rem;
+    color: #98a2b3;
+    /* color: white; */
+}
+
+.image-center{
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-center img,
+.image-center p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.animation-panel{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.img-blue-animation{
+    width: 100%;
+    background-color: blue;
+}
+
+.img-blue-animation img{
+    width: 100%;
+    
+}
+
+.difference-nexus{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-nexus-difference{
+    width: 100%;
+}
+
+/* .message-nexus-difference{
+    display: flex;
+    width: 184.33px;
+    height: 42.16px;
+    background-color: #011d5a;
+    border-color: #011d5a;
+    border-style: solid;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 100px;
+}
+
+.message-nexus-difference p{
+    color: aliceblue;
+    font-size: .75rem;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.benefits-text{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.benefits-text h1{
+    width: 100%;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    justify-content: center;
+} */
+
+#nexus-img{
+    /* margin-top: 100px; */
+    margin-left: 15px;
+}
+
+
+
+
+
