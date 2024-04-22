@@ -1,264 +1,266 @@
+/** @format */
+
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Poppins, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-family: Poppins, sans-serif;
 }
-body{
-    display: flex;
-    /* justify-content: center; */
-    background: linear-gradient(90deg, #030380 0%, #060e1f 100%);
-    /* text-align: center; */
-    /* width: 100%; */
+body {
+	display: flex;
+	/* justify-content: center; */
+	background: linear-gradient(90deg, #030380 0%, #060e1f 100%);
+	/* text-align: center; */
+	/* width: 100%; */
 }
 .header {
-    /* display: flex; */
-    justify-content: center;
-    margin-top: 200px;
-    width: 100%;
+	/* display: flex; */
+	justify-content: center;
+	margin-top: 200px;
+	width: 100%;
 }
 
 .message-up-title {
-    padding: .63rem 1.5rem;
-    display: flex;
-    background-color: #00018f;
-    border-style: solid;
-    max-width: 250px;
-    border: 1px solid #0001eb;
-    border-radius: 6.25rem;
-    justify-self: center;
+	padding: 0.63rem 1.5rem;
+	display: flex;
+	background-color: #00018f;
+	border-style: solid;
+	max-width: 250px;
+	border: 1px solid #0001eb;
+	border-radius: 6.25rem;
+	justify-self: center;
 }
 
-.message-up-title p{
-    color: aliceblue;
-    font-size: .75rem;
+.message-up-title p {
+	color: aliceblue;
+	font-size: 0.75rem;
 }
 
 .title {
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    h1 {
-        font-family: Poppins, sans-serif;
-        font-size: 4.75rem;
-        font-weight: 400;
-        line-height: 1.1;
-        color: aliceblue;
-        text-align: center;
-    }
+	width: 100%;
+	display: grid;
+	justify-content: center;
+	h1 {
+		font-family: Poppins, sans-serif;
+		font-size: 4.75rem;
+		font-weight: 400;
+		line-height: 1.1;
+		color: aliceblue;
+		text-align: center;
+	}
 }
 
-.text-builder{
-    
-    text-align: center;
+.text-builder {
+	text-align: center;
 }
 
 .text-builder span {
-
-    opacity: 1;
-    font-size: 16px;
-    color: #98a2b3
-    
+	opacity: 1;
+	font-size: 16px;
+	color: #98a2b3;
 }
-#text-two{
-    opacity: 1;
-    font-size: 16px;
-    margin-left: 10px;        
+#text-two {
+	opacity: 1;
+	font-size: 16px;
+	margin-left: 10px;
 }
 
-.start-buttons{
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
+.start-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
 }
 
-.button-start{
-    width: 278px;
-    height: 49.27px;
-    background-image: linear-gradient(45deg, #1718ff, #7f56d9);
-    border-radius: 15px;
-    text-align: center;
+.button-start {
+	width: 278px;
+	height: 49.27px;
+	background-image: linear-gradient(45deg, #1718ff, #7f56d9);
+	border-radius: 15px;
+	text-align: center;
 }
 
-.button-start:hover{
-    border-color: white;
+.button-start:hover {
+	border-color: white;
 }
 
-.button-start button{
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    background-color: transparent;
-    font-family: Poppins, sans-serif;
-    border: none;
-    text-align: center;
-    margin-top: 15px;
+.button-start button {
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background-color: transparent;
+	font-family: Poppins, sans-serif;
+	border: none;
+	text-align: center;
+	margin-top: 15px;
 }
 
-.more-information{
-    cursor: pointer;
-    width: 154px;
-    height: 49.27px;
-    background-image: none;
-    border-radius: 25px;
-    border: solid 1px white;
-    text-align: center;
-    margin-left: 25px;
+.more-information {
+	cursor: pointer;
+	width: 154px;
+	height: 49.27px;
+	background-image: none;
+	border-radius: 25px;
+	border: solid 1px white;
+	text-align: center;
+	margin-left: 25px;
 }
 
 .more-information button {
-    cursor: pointer;
-    font-size: 17px;
-    font-weight: 600;
-    color: #fff;
-    background-color: transparent;
-    font-family: Poppins, sans-serif;
-    border: none;
-    text-align: center;
-    margin-top: 15px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 600;
+	color: #fff;
+	background-color: transparent;
+	font-family: Poppins, sans-serif;
+	border: none;
+	text-align: center;
+	margin-top: 15px;
 }
 
-.more-information:hover{
-    background-color: white;
-    border-radius: 25px;
-    color: black;
-    button{
-        color: black;
-    }
+.more-information:hover {
+	background-color: white;
+	border-radius: 25px;
+	color: black;
+	button {
+		color: black;
+	}
 }
 
-.more-information button:hover{
-    color: #010c24;
-    border-radius: 25px;
+.more-information button:hover {
+	color: #010c24;
+	border-radius: 25px;
 }
 
-.our-difference-menu{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.our-difference-menu {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
 .edit-our-difference {
-    width: 100%;
-    display: grid;
-    overflow: hidden;
+	width: 100%;
+	display: grid;
+	overflow: hidden;
 }
 
-.message-our-difference{
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    width: 184.33px;
-    height: 42.16px;
-    background-color: #011d5a;
-    border: 1px solid white;
-    border-style: solid;
-    border-radius: 25px;
-    justify-content: center;
-    margin-bottom: 120px;
+.message-our-difference {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	width: 184.33px;
+	height: 42.16px;
+	background-color: #011d5a;
+	border: 1px solid white;
+	border-style: solid;
+	border-radius: 25px;
+	justify-content: center;
+	margin-bottom: 120px;
 }
 
-.message-our-difference p{
-    color: aliceblue;
-    font-size: .75rem;
-    font-family: Poppins, sans-serif;
-    text-align: center;
+.message-our-difference p {
+	color: aliceblue;
+	font-size: 0.75rem;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+}
+
+.line-blue {
+	width: 100%;
 }
 
 .customize-message-our-difference {
-    display: flex;
-    text-align: center;
-    width: 100%; 
+	display: flex;
+	text-align: center;
+	width: 100%;
 }
 
 .customize-plataform {
-    display: flex;
-    text-align: center;
-    width: 100%; 
+	display: flex;
+	text-align: center;
+	width: 100%;
 }
 
-.customize-plataform h1{
-    width: 100%;
-    color: white;
-    font-family: Poppins, sans-serif;
-    font-size: 4.5rem;
-    font-weight: 400;
-    line-height: 1.2;
-    justify-content: center;
+.customize-plataform h1 {
+	width: 100%;
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-size: 4.5rem;
+	font-weight: 400;
+	line-height: 1.2;
+	justify-content: center;
 }
 
-.customize-message-our-difference h1{
-    width: 100%;
-    color: white;
-    font-family: Poppins, sans-serif;
-    font-size: 4.5rem;
-    font-weight: 400;
-    line-height: 1.2;
-    justify-content: center;
+.customize-message-our-difference h1 {
+	width: 100%;
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-size: 4.5rem;
+	font-weight: 400;
+	line-height: 1.2;
+	justify-content: center;
 }
 
-.customize-visual{
-    display: flex;
-    text-align: center;
-    width: 100%;
+.customize-visual {
+	display: flex;
+	text-align: center;
+	width: 100%;
 }
 
-.customize-visual h3{
-    font-size: 1.25rem;
-    opacity: 1;
-    color: #98a2b3;
-    box-sizing: border-box;
-    font-family: Poppins, sans-serif;
-    justify-content: center;
-    width: 100%;
+.customize-visual h3 {
+	font-size: 1.25rem;
+	opacity: 1;
+	color: #98a2b3;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+	justify-content: center;
+	width: 100%;
 }
 
-.topics-img{
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 27%;
+.topics-img {
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 27%;
 }
 
-.topics-img p{
-    font-size: 1.125rem;
-    color: #98a2b3;
-    /* color: white; */
+.topics-img p {
+	font-size: 1.125rem;
+	color: #98a2b3;
+	/* color: white; */
 }
 
-.image-center{
-    background-color: transparent;
-    text-align: center;
-    cursor: pointer;
+.image-center {
+	background-color: transparent;
+	text-align: center;
+	cursor: pointer;
 }
 
 .image-center img,
 .image-center p {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
 }
 
-.img-blue-animation{
-    width: 100%;
-    background-color: blue;
+.img-blue-animation {
+	width: 100%;
+	background-color: blue;
 }
 
-.img-blue-animation img{
-    width: 100%;
-    
+.img-blue-animation img {
+	width: 100%;
 }
 
-.difference-nexus{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.difference-nexus {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
-.edit-nexus-difference{
-    width: 100%;
+.edit-nexus-difference {
+	width: 100%;
 }
 
 /* .message-nexus-difference{
@@ -297,225 +299,241 @@ body{
     justify-content: center;
 } */
 
-#nexus-img{
-    /* margin-top: 100px; */
-    margin-left: 15px;
+#nexus-img {
+	/* margin-top: 100px; */
+	margin-left: 15px;
 }
 
 .img-my-casino {
-    width: 100%;
-    display: grid;
-    margin: 120px 0;
-    img {
-        justify-self: center;
-        width: 55%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 3px;
-    }
+	width: 100%;
+	display: grid;
+	margin: 120px 0;
+	img {
+		justify-self: center;
+		width: 55%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: 3px;
+	}
 }
 
 .steps {
-    display: flex;
-    justify-content: center;
-    margin: 100px 0;
-    img {
-        width: 55%;
-        
-    }
+	display: flex;
+	justify-content: center;
+	margin: 100px 0;
+	img {
+		width: 55%;
+	}
 }
 
 button {
-    border: none;
+	border: none;
 }
 .card-container {
-    display: grid;
-    padding: 10px;
-    grid-template-columns: repeat(3, 1fr);
+	display: grid;
+	padding: 10px;
+	grid-template-columns: repeat(3, 1fr);
 }
 .card {
-    justify-self: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border-radius: 2.5rem;
-    width: 400px;
-    background-color: rgba(15, 23, 41, .5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    margin: 10px;
+	justify-self: center;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	border-radius: 2.5rem;
+	width: 400px;
+	background-color: rgba(15, 23, 41, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin: 10px;
 }
-img { 
-    width: 100%;
+img {
+	width: 100%;
 }
 
 @media (max-width: 1200px) {
-    .img-my-casino {
-        img {
-            width: 90%;
-        }
-    }
-    .steps {
-        img {
-            width: 90%;
-        }
-    }
+	.img-my-casino {
+		img {
+			width: 90%;
+		}
+	}
+	.steps {
+		img {
+			width: 90%;
+		}
+	}
 }
 
 .difference-msg-edit {
-    width: 100%;
-    display: grid;
-    overflow: hidden;
+	width: 100%;
+	display: grid;
+	overflow: hidden;
 }
 
-.difference-msg{
-    width: 100%;
-    color: white;
-    font-family: Poppins, sans-serif;
-    font-size: 4.5rem;
-    font-weight: 400;
-    line-height: 1.2;
-    justify-content: center;
+.difference-msg {
+	width: 100%;
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-size: 4.5rem;
+	font-weight: 400;
+	line-height: 1.2;
+	justify-content: center;
 }
 
-.our-difference-menu-seccond{
-    display: block;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.our-difference-menu-seccond {
+	display: block;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
 .our-seccond-message {
-    width: 100%;
-    display: grid;
-    overflow: hidden;
+	width: 100%;
+	display: grid;
+	overflow: hidden;
 }
 
-.message-our-difference-seccond{
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    width: 184.33px;
-    height: 42.16px;
-    background-color: #011d5a;
-    border: 1px solid white;
-    border-style: solid;
-    border-radius: 25px;
-    justify-content: center;
-    margin-bottom: 80px;
+.message-our-difference-seccond {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	width: 184.33px;
+	height: 42.16px;
+	background-color: #011d5a;
+	border: 1px solid white;
+	border-style: solid;
+	border-radius: 25px;
+	justify-content: center;
+	margin-bottom: 80px;
 }
 
-.message-our-difference-seccond p{
-    color: aliceblue;
-    font-size: .75rem;
-    font-family: Poppins, sans-serif;
-    text-align: center;
+.message-our-difference-seccond p {
+	color: aliceblue;
+	font-size: 0.75rem;
+	font-family: Poppins, sans-serif;
+	text-align: center;
 }
 
-.card-pay-real-time{
-    margin-top: 50px;
-    display: flex;
-    width: 100%;
-    height: 600px;
-    background-color: transparent;
-    justify-content: center;
+.card-pay-real-time {
+	margin-top: 50px;
+	display: flex;
+	width: 100%;
+	height: 600px;
+	background-color: transparent;
+	justify-content: center;
 }
 
-.main-card-pay-header{
-    display: flex;
-    width: 63%;
-    height: 500px;
-    background-color: #011d5a;
-    border-radius: 3.125rem;
-    border: solid 1px gray;
-    justify-content: space-evenly;
+.main-card-pay-header {
+	display: flex;
+	width: 63%;
+	height: 500px;
+	background-color: #011d5a;
+	border-radius: 3.125rem;
+	border: solid 1px gray;
+	justify-content: space-evenly;
 }
 
-.main-card-pay{
-    
-    height: 487px;
-    
+.main-card-pay {
+	height: 487px;
 }
 
-.main-card-pay-two{
-   
-    height: 487px;
-    
+.main-card-pay-two {
+	height: 487px;
 }
 
 .style-button-our-benefits {
-    width: 100%;
-    display: grid;
-    overflow: hidden;
-    margin:30px;
+	width: 100%;
+	display: grid;
+	overflow: hidden;
+	margin: 30px;
 }
 
-.difference-message-button-pay{
-    display: flex;
-    /* justify-self: center; */
-    margin-top: 45px;
-    align-items: center;
-    width: 184.33px;
-    height: 42.16px;
-    background-color: transparent;
-    border: 1px solid white;
-    border-style: solid;
-    border-radius: 25px;
-    justify-content: center;
-    /* margin-bottom: 120px; */
+.difference-message-button-pay {
+	display: flex;
+	/* justify-self: center; */
+	margin-top: 45px;
+	align-items: center;
+	width: 184.33px;
+	height: 42.16px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-style: solid;
+	border-radius: 25px;
+	justify-content: center;
+	/* margin-bottom: 120px; */
 }
 
-.difference-message-button-pay p{
-    color: aliceblue;
-    font-size: .85rem;
-    font-family: Poppins, sans-serif;
-    text-align: center;
+.difference-message-button-pay p {
+	color: aliceblue;
+	font-size: 0.85rem;
+	font-family: Poppins, sans-serif;
+	text-align: center;
 }
 
-.style-button-our-benefits h1{
-    width: 100%;
-    color: white;
-    font-family: Poppins, sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 1.2;
-    justify-content: center;
-    margin-top: 25px;
+.style-button-our-benefits h1 {
+	width: 100%;
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-size: 3rem;
+	font-weight: 400;
+	line-height: 1.2;
+	justify-content: center;
+	margin-top: 25px;
 }
 
 #message {
-    opacity: 1;
-    color: #98a2b3;
-    margin-top: 25px;
-    letter-spacing: .6px;
-    font-family: Poppins, sans-serif;
+	opacity: 1;
+	color: #98a2b3;
+	margin-top: 25px;
+	letter-spacing: 0.6px;
+	font-family: Poppins, sans-serif;
 }
 
-.button-start-benefits{
-    width: 278px;
-    height: 49.27px;
-    background-image: linear-gradient(45deg, #1718ff, #7f56d9);
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 60px;
+.button-start-benefits {
+	width: 278px;
+	height: 49.27px;
+	background-image: linear-gradient(45deg, #1718ff, #7f56d9);
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 60px;
 }
 
-.button-start-benefits:hover{
-    border-color: white;
+.button-start-benefits:hover {
+	border-color: white;
 }
 
-.button-start-benefits button{
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    background-color: transparent;
-    font-family: Poppins, sans-serif;
-    border: none;
-    text-align: center;
-    margin-top: 15px;
+.button-start-benefits button {
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background-color: transparent;
+	font-family: Poppins, sans-serif;
+	border: none;
+	text-align: center;
+	margin-top: 15px;
 }
 
-.edit-image-our-seccond-difference{
-    margin-top: 70px;
+.edit-image-our-seccond-difference {
+	margin-top: 70px;
+}
+
+.client-landing {
+	width: 100%;
+	height: 1500px;
+	background-color: #ffff;
+	padding-top: 4rem;
+}
+.line-blue {
+	width: 100%;
+	height: 272px;
+}
+
+@media (max-width: 480px) {
+	.client-landing {
+		height: 3200px !important;
+	}
+
+	.line-blue {
+		height: 583px !important;
+	}
 }
