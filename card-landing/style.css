@@ -1,0 +1,44 @@
+* {
+    font-family: Poppins, sans-serif;
+    overflow: hidden;
+}
+.card-container {
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card {
+    justify-self: center;
+    display: grid;
+    border-radius: 2.5rem;
+    width: 400px;
+    background-color: rgba(15, 23, 41, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+img { 
+    width: 100%;
+}
+.title {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 600;
+}
+.subtitle {
+    font-size: 1.15rem;
+    color: #667085;
+    font-weight: 400;
+}
+
+@media (max-width: 1300px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 920px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
