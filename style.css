@@ -52,6 +52,8 @@ body {
 }
 
 .text-builder {
+	display: flex;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -236,7 +238,6 @@ body {
 .image-center {
 	background-color: transparent;
 	text-align: center;
-	cursor: pointer;
 }
 
 .image-center img,
@@ -573,6 +574,14 @@ img {
 .footer-container-values {
 	width: 50%;
 }
+.text-build {
+	width: 50%;
+}
+.button-builder {
+	display: flex; 
+	width: 90%;
+	justify-content: center;
+}
 @media (max-width: 480px) {
 	.client-landing {
 		height: 3200px !important;
@@ -614,5 +623,8 @@ img {
 	}
 	.topics-img {
 		width: fit-content;
+	}
+	.text-build {
+		width: 100%;
 	}
 }
