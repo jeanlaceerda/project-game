@@ -141,7 +141,6 @@ body {
 .edit-our-difference {
 	width: 100%;
 	display: grid;
-	overflow: hidden;
 }
 
 .message-our-difference {
@@ -218,10 +217,10 @@ body {
 }
 
 .topics-img {
-	width: 50%;
+	justify-self: center;
+	width: 100% - 20px;
 	display: flex;
 	justify-content: space-evenly;
-	margin-left: 27%;
 }
 
 .topics-img p {
@@ -366,7 +365,6 @@ img {
 .difference-msg-edit {
 	width: 100%;
 	display: grid;
-	overflow: hidden;
 }
 
 .difference-msg {
@@ -384,12 +382,12 @@ img {
 	width: 100%;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 200px;
 }
 
 .our-seccond-message {
 	width: 100%;
 	display: grid;
-	overflow: hidden;
 }
 
 .message-our-difference-seccond {
@@ -417,34 +415,25 @@ img {
 	margin-top: 50px;
 	display: flex;
 	width: 100%;
-	height: 600px;
 	background-color: transparent;
 	justify-content: center;
 }
 
 .main-card-pay-header {
+	height: 100%;
+	padding: 10px 20px;
+	width: 90%;
 	display: flex;
-	width: 63%;
-	height: 500px;
+	align-items: center;
 	background-color: #011d5a;
 	border-radius: 3.125rem;
 	border: solid 1px gray;
 	justify-content: space-evenly;
 }
 
-.main-card-pay {
-	height: 487px;
-}
-
-.main-card-pay-two {
-	height: 487px;
-}
-
 .style-button-our-benefits {
 	width: 100%;
 	display: grid;
-	overflow: hidden;
-	margin: 30px;
 }
 
 .difference-message-button-pay {
@@ -536,12 +525,40 @@ img {
 	height: 272px;
 }
 
+.small-img {
+	width: 80px;
+	height: 80px;
+}
+
 @media (max-width: 480px) {
 	.client-landing {
 		height: 3200px !important;
 	}
-
 	.line-blue {
 		height: 583px !important;
+	}
+	.customize-plataform h1 {
+		font-size: 2.5rem;
+	}
+	.customize-visual h3 {
+		font-size: 1rem;
+	}
+}
+#cards {
+	width: 100%;
+	height: 1400px;
+}
+@media (max-width: 1300px) {
+    #cards {
+		height: 2100px;
+	}
+	.main-card-pay-header {
+		width: 80%;
+		display: grid;
+	}
+}
+@media (max-width: 920px) {
+    #cards {
+		height: 2700px;
 	}
 }

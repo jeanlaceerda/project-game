@@ -1,8 +1,8 @@
 * {
     font-family: Poppins, sans-serif;
-    overflow: hidden;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 }
 
 body, html {
@@ -64,5 +64,10 @@ body, html {
 @media (max-width: 480px) {
   .box-image{
     margin: auto;
+  }
+}
+@media (min-width: 780px) {
+  .container {
+    margin-bottom: 120px;
   }
 }

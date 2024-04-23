@@ -1,14 +1,19 @@
 * {
     font-family: Poppins, sans-serif;
-    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 .card-container {
     width: 100%;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 .card {
+    height: 600px;
     justify-self: center;
     display: grid;
     border-radius: 2.5rem;
@@ -39,5 +44,17 @@ img {
 @media (max-width: 920px) {
     .card-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        width: 350px;
+        height: 400px;
+        img {
+            justify-self: center;
+            max-width: 200px;
+            margin-top: 30px;
+        }
+        p {
+            justify-self: center;
+        }
     }
 }

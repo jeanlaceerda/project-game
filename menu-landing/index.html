@@ -5,14 +5,34 @@
     <div class="nav-menu-wrapper">
       <div class="nav-container">
         <img src="../images/logo.svg" alt="logo" />
-        <div class="nav-menu">
+        <div class="nav-menu" id="navMenu">
           <a>Produtos</a>
           <a>Demo</a>
           <a>Carreiras</a>
           <a>Sobre nós</a>
+        </div>
+        <div class="burger" id="burgerMenu">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <button class="nav-button">Entrar em contato</button>
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    const burgerMenu = document.getElementById("burgerMenu");
+    const navMenu = document.getElementById("navMenu");
+
+    burgerMenu.addEventListener("click", (event) => {
+      event.stopPropagation();
+      navMenu.classList.toggle("open");
+    });
+
+    document.addEventListener("click", () => {
+      navMenu.classList.remove("open");
+    });
+  });
+</script>
