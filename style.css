@@ -28,6 +28,7 @@ body {
 	border: 1px solid #0001eb;
 	border-radius: 6.25rem;
 	justify-self: center;
+	margin-bottom: 50px;
 }
 
 .message-up-title p {
@@ -218,7 +219,7 @@ body {
 
 .topics-img {
 	justify-self: center;
-	width: 100% - 20px;
+	width: 50%;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -560,5 +561,8 @@ img {
 @media (max-width: 920px) {
     #cards {
 		height: 2700px;
+	}
+	.topics-img {
+		width: fit-content;
 	}
 }
