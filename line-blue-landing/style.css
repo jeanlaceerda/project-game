@@ -12,8 +12,8 @@ body, html {
   }
 
   .container {
-    background-color: #1718FF; /* Replace with the exact color code from the image */
-    color: white;
+    background-color: #f8df00; /* Replace with the exact color code from the image */
+    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -23,10 +23,10 @@ body, html {
   }
 
   .box-image{
-    width: 80px;
-    height: 80px;
+    width: 280px;
+    height: 280px;
     display: flex;
-    background-color: #ffff;
+    background-color: #000014;
     align-items: center;
     justify-content: center;
     border-radius: 18.08px;

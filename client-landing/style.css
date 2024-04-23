@@ -28,18 +28,11 @@
 .button button {
 	width: 174.44px;
 	height: 51.27px;
-	background-color: transparent;
-	border: 1px solid #1718ff;
-	color: #1718ff;
+	background-color: #f8df00;
+	border: 1px solid white;
+	color: black;
 	border-radius: 100px;
 	cursor: pointer;
-}
-
-.button button:hover {
-	background-color: #1718ff;
-	border: none;
-	color: white;
-	font-weight: bold;
 }
 
 .w20 {

@@ -41,8 +41,8 @@
 }
 .nav-button {
     min-width: 201px;
-    color: #fff;
-    background-image: linear-gradient(45deg, #1718ff, #7f56d9);
+    color: black;
+    background-image: linear-gradient(45deg, #f8df00, #d8cb11);
     border-radius: 6.25rem;
     padding: .88rem 2.5rem;
     font-size: .88rem;
